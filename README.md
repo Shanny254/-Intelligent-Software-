@@ -68,17 +68,6 @@ AI systems may be biased if datasets underrepresent specific groups. In this pro
 
 ---
 
-## Bonus Task: Innovation Challenge
-
-**Tool Idea**: `DocSmartAI`  
-Generates inline documentation and READMEs automatically using NLP.
-
-- **Input**: Source code  
-- **Output**: Markdown docs  
-- **Impact**: Saves time and improves code maintainability
-
----
-
 ## How to Run the Code
 
 ### Requirements
