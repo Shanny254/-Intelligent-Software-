@@ -1,0 +1,44 @@
+# Code Analysis (Task 1)
+
+The Copilot-suggested function is:
+- More concise and readable.
+- Uses Python’s built-in `sorted()` function.
+- Performs better and is less error-prone.
+
+The manual version:
+- Uses nested loops which can be inefficient (O(n^2)).
+- Is more complex and less maintainable.
+- Suitable for learning but not ideal in production code
+
+
+# Analysis (Task 3):
+
+ Task Objective
+To build a machine learning model that classifies tumor types (benign vs. malignant) to simulate how AI can help prioritize software issues or resource allocation in real-world engineering projects.
+
+ Model Used
+        -Algorithm: Random Forest Classifier
+        -Dataset: sklearn.datasets.load_breast_cancer
+        -Train/Test Split: 80/20
+
+ Model Evaluation Metrics
+        -Accuracy: ~97.3%
+        -F1-Score: ~97.3%
+        -Precision and Recall: High for both classes
+These metrics indicate a very strong classifier with balanced performance across both classes (malignant and benign).
+
+Confusion Matrix
+The confusion matrix showed minimal false positives and false negatives, meaning the model made few misclassifications. This is critical in real-world settings where such errors could lead to under- or over-prioritizing tasks.
+ 
+ Top Features Influencing Prediction
+    Based on feature importance, the most impactful features were:
+            worst concave points  
+            mean concave points 
+            worst perimeter    
+            worst radius
+This insight is valuable because it shows which attributes most influence decisions—paralleling how certain software issue features (like severity or frequency) could impact triage.
+
+ Conclusion
+The model is suitable for predictive tasks where high accuracy and reliability are needed.
+Such a system could help software teams automatically prioritize bugs or tasks, ensuring critical issues are handled first.
+
